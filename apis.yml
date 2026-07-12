@@ -23,10 +23,16 @@ apis:
       - type: Documentation
         url: https://dev.blablacar.com
 common:
+  - type: VulnerabilityDisclosure
+    url: security/blablacar-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/blablacar-domain-security.yml
   - type: Website
     url: https://dev.blablacar.com
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - type: Blog
+    url: https://blog.blablacar.com/feed/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
