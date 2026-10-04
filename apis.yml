@@ -35,11 +35,13 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
   - Transportation
   - Public APIs
+  - Mobility
+  - Carpooling
+  - Car Sharing
 apis:
   - name: BlaBlaCar
     description: "Search car sharing trips"
     humanURL: https://dev.blablacar.com
-    baseURL: https://dev.blablacar.com
     tags:
       - Transportation
     properties:
@@ -59,3 +61,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Ridesharing
